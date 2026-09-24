@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f8;
+    color: #222;
+    min-height: 100vh;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.header {
+    background: linear-gradient(135deg, #4b00c8, #7b2ff7);
+    color: white;
+    padding: 35px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.header p {
+    font-size: 17px;
+}
+
+main {
+    padding: 40px 0;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    color: #0f0f0fb6;
+    margin-bottom: 25px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.campo input,
+.campo select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+}
+
+.campo input:focus,
+.campo select:focus {
+    border-color: #c0e227;
+}
+
+.botones {
+    grid-column: 1 / -1;
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#btnGuardar {
+    background-color: #ecb130;
+    color: white;
+}
+
+#btnGuardar:hover {
+    background-color: #6c9727;
+}
+
+.btn-cancelar {
+    background-color: #c75f5f;
+    color: white;
+}
+
+.btn-cancelar:hover {
+    background-color: #ad6868;
+}
+
+.oculto {
+    display: none;
+}
+
+.tabla-contenedor {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #3e9b87;
+    color: white;
+}
+
+th,
+td {
+    padding: 14px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background-color: #91cce4;
+}
+
+.btn-editar {
+    background-color: #c44545;
+    color: white;
+    margin-right: 5px;
+}
+
+.btn-editar:hover {
+    background-color: #148d55;
+}
+
+.btn-eliminar {
+    background-color: #b10f60;
+    color: white;
+}
+
+.btn-eliminar:hover {
+    background-color: #154e97;
+}
+
+.mensaje-vacio {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
+
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .header h1 {
+        font-size: 26px;
+    }
+
+    form {
+        grid-template-columns: 1fr;
+    }
+
+    .botones {
+        grid-column: auto;
+    }
+
+    th,
+    td {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .btn-editar,
+    .btn-eliminar {
+        display: block;
+        width: 100%;
+        margin: 4px 0;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .contenedor {
+        width: 94%;
+    }
+
+    section {
+        padding: 18px;
+    }
+
+    .header {
+        padding: 25px 0;
+    }
+
+    .header h1 {
+        font-size: 23px;
+    }
+
+    .header p {
+        font-size: 14px;
+    }
+}
