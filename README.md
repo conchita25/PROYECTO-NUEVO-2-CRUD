@@ -12,5 +12,11 @@ El proyecto que elegí fue de productos
 
 # ESTE ES MI PROYECTO PODEMOS AGREGAR, ELIMINAR Y EDITAR PRODUCTOS QUE QUIERAN INGRESAR
 
-https://1drv.ms/v/c/11010ded7eb580ae/IQCfhCUeO42tQ4JX1a15nUIwAb15vlK5j6yCZvRbFRBOeRY?e=5vEUrF
+
+
+
+https://github.com/user-attachments/assets/9684c54c-f911-445b-9da4-2275751b8427
+
+
+
 
