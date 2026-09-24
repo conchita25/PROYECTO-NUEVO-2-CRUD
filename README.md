@@ -1,6 +1,6 @@
 # HOLA 
 
-Mi nombre es: Concepcio Trujillo Reyes
+Mi nombre es: Concepcion Trujillo Reyes
 
 Estoy estudian: Ingeniería Industrial y Administración
 
