@@ -1,4 +1,4 @@
-# BUENAS NOCHES #
+# BUENAS NOCHES
 
 Mi nombre es: Concepcio Trujillo Reyes
 Estoy estudian: Ingeniería Industrial y Administración
